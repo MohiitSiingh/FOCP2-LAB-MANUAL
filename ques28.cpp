@@ -12,7 +12,7 @@ if(num[i]/2==0){
     eventotal= eventotal+num[i];
 }
 else if (num[i]/2!=0){
-    oddtotal+=num[i];
+    oddtotal=oddtotal+num[i];
 }
 }
 std::cout<<"sum of odd:"<<oddtotal<<"sum of even: "<<eventotal;
