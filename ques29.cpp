@@ -12,7 +12,7 @@ for(int i=0; i<30 ; i++){
 }
 for(int i=1; i<30;i++){
 if(temp[i]<min){
-    min = temp[i+1];
+    min = temp[i];
     }
 }
 std::cout<<"minimum temperatre recorded is: "<<min;
