@@ -13,7 +13,7 @@ if(num[i]%2==0){
 }
 else{
     oddtotal=oddtotal+num[i];
-}
+    }
 }
 std::cout<<"sum of odd:"<<oddtotal<<"sum of even: "<<eventotal;
     return 0 ;
