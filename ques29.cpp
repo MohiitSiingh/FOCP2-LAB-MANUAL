@@ -4,12 +4,14 @@ int main(){
  Implement a solution to store daily 
 temperatures in an array and display the minimum temperature for the month.*/
 std::cout<<"Enter temperature: ";
-int temp[30];
+
 int min = temp[0] ;
 for(int i=0; i<30 ; i++){
     std::cin>>temp[i];
     
 }
+int min = temp[0];
+
 for(int i=1; i<30;i++){
 if(temp[i]<min){
     min = temp[i];
