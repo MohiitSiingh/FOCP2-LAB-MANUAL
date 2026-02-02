@@ -8,7 +8,7 @@ int oddtotal=0,eventotal=0;
 int num[5];
 for(int i =0; i<5 ; i++){
 std::cin>>num[i];
-if(num[i]/2==0){
+if(num[i]%2==0){
     eventotal= eventotal+num[i];
 }
 else{
