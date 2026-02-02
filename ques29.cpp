@@ -11,7 +11,7 @@ for(int i=0; i<30 ; i++){
     
 }
 for(int i=0; i<30;i++){
-if(temp[i+1]<temp[0]){
+if(temp[i+1]<min){
     min = temp[i+1];
     }
 }
