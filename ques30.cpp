@@ -5,7 +5,7 @@ int main(){
 10 employees in an array, compute total salary and average salary,
  then display the result*/
 int salary[10];
-int total=0,avg;
+int total=0,avg=0;
 std::cout<<"enter salary: ";
 for(int i =0 ; i<10;i++){
     std::cin>>salary[i];
