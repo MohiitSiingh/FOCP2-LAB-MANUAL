@@ -10,8 +10,8 @@ for(int i=0; i<30 ; i++){
     std::cin>>temp[i];
     
 }
-for(int i=0; i<30;i++){
-if(temp[i+1]<min){
+for(int i=1; i<30;i++){
+if(temp[i]<min){
     min = temp[i+1];
     }
 }
