@@ -11,7 +11,7 @@ std::cin>>num[i];
 if(num[i]/2==0){
     eventotal= eventotal+num[i];
 }
-else if (num[i]/2!=0){
+else{
     oddtotal=oddtotal+num[i];
 }
 }
