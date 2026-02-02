@@ -9,8 +9,8 @@ Implement a solution to accept marks in 5 subjects,
  }
  float total = sub[0] + sub[1] + sub[2] + sub[3] + sub[4];
  float percent = (total/500)*100;
- for(int i = 0 ; i<5 ; i++){
-    std::cout<<
+ 
+    std::cout<<total<<percent;
  
 
     return 0;
