@@ -22,6 +22,6 @@ if (score[i]>highest){
 //cout<<"player "<<i<<"has highest score"<<score[i];
 }
 
-cout<<"player "<<i<<"  has highest score"<<highest;
+cout<<"player   has highest score"<<highest;
     return 0;
 }
