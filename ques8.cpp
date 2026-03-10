@@ -13,15 +13,15 @@ int main (){
     cin>>n;
 int eventIDs[n];
 for(int i = 0 ; i<n ; i++){
-    cout<<"Enter: ";
+    cout<<"Enter IDs: ";
     cin>>eventIDs[i];
     if(eventIDs[i]%3==0){
-        cout<<"Buzz";
+        cout<<"Buzz\n";
     }
-else if(eventIDs[i]%5==0){
- cout<<"Fuzz";
+if(eventIDs[i]%5==0){
+ cout<<"Fuzz\n";
 }
-else if(eventIDs[i]%5==0 && eventIDs[i]%3==0){
+ if(eventIDs[i]%5==0 && eventIDs[i]%3==0){
  cout<<"BuzzFuzz";
 }
 }
