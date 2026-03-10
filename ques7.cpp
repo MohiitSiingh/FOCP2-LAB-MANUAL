@@ -6,19 +6,22 @@ using namespace std;
 int main(){
 
 int players;
+cout<<"enter : ";
 cin>>players;
 float score[players];
 for(int i=0 ; i < players ; i++){
-cout<<"player "<<i;
+cout<<"player "<<i<<" :";
 cin>>score[i];
 }
-for(int i = 0; i<players; i++){  
 float highest = score[0];
+for(int i = 0; i<players; i++){  
+
 if (score[i]>highest){
     highest = score[i];
 }
-cout<<"player "<<i<<"has highest score"<<score[i];
+//cout<<"player "<<i<<"has highest score"<<score[i];
 }
 
+cout<<"player "<<i<<"  has highest score"<<highest;
     return 0;
 }
