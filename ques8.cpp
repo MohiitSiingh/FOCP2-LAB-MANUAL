@@ -7,3 +7,24 @@ To make logs easier to analyse, the system applies tags to certain events based
 #include<iostream>
 #include<string>
 using namespace std;
+int main (){
+    int n;
+    cout<<"enter number of IDs: ";
+    cin>>n;
+int eventIDs[n];
+for(int i = 0 ; i<n ; i++){
+    cout<<"Enter: "
+    cin>>eventIDs[i];
+    if(eventIDs[i]%3==0){
+        cout<<"Buzz";
+    }
+else if(eventIDs[i]%5==0){
+ cout<<"Fuzz";
+}
+else if(eventIDs[i]%5==0 && eventIDs[i]%3==0){
+ cout<<"BuzzFuzz";
+}
+}
+
+    return 0;
+}
