@@ -14,14 +14,16 @@ cout<<"player "<<i<<" :";
 cin>>score[i];
 }
 float highest = score[0];
+int highestplayer;
 for(int i = 0; i<players; i++){  
 
 if (score[i]>highest){
     highest = score[i];
+    highestplayer = i;
 }
 //cout<<"player "<<i<<"has highest score"<<score[i];
 }
 
-cout<<"player   has highest score"<<highest;
+cout<<"player "<<highestplayer<<"   has highest score: "<<highest;
     return 0;
 }
