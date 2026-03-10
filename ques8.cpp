@@ -13,7 +13,7 @@ int main (){
     cin>>n;
 int eventIDs[n];
 for(int i = 0 ; i<n ; i++){
-    cout<<"Enter: "
+    cout<<"Enter: ";
     cin>>eventIDs[i];
     if(eventIDs[i]%3==0){
         cout<<"Buzz";
