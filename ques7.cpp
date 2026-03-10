@@ -3,11 +3,15 @@
 and identify the winner. */
 #include<iostream>
 int main(){
-float score;
+
 int players;
-for(int i=0;i<players;i++){
+float score[players];
+for(int i=0 ; i<players ;i++){
 cout<<"player "<<i;
+cin>>score[i];
 
 }
+
+
     return 0;
 }
