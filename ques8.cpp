@@ -21,9 +21,9 @@ for(int i = 0 ; i<n ; i++){
 if(eventIDs[i]%5==0){
  cout<<"Fuzz\n";
 }
- if(eventIDs[i]%5==0 && eventIDs[i]%3==0){
- cout<<"BuzzFuzz";
-}
+/*  if(eventIDs[i]%5==0 && eventIDs[i]%3==0){
+ cout<<"BuzzFuzz\n";
+}*/
 }
 
     return 0;
