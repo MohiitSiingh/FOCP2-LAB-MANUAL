@@ -6,6 +6,7 @@ using namespace std;
 int main(){
 
 int players;
+cin>>players;
 float score[players];
 for(int i=0 ; i < players ; i++){
 cout<<"player "<<i;
